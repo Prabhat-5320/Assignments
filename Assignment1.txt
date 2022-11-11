@@ -1,0 +1,99 @@
+1. Python is genral-purpose and high level programmimg language because it is very efficient in nature and programmer friendly language.It is very popular nowdays because of its easyness. Anyone can uderstand and read python language easily, it is begginer friendly too.
+
+2. Python is called dynamically typed because it does not know the data-type of variable untill it runs.It gets to know about the type at runtime.
+
+3.Pros of Pyhton
+  -Its a beginner friendly langauge
+  -having a large community
+  -Portable
+  - having extensive library
+
+  Cons of python
+  -Its is slow as compared to java and c++
+  -Security is less in Python
+  -Memory consumption is more in Python
+
+4. We can use pyhton almost in every domain such as AI Ml ,Deep learning GUI based application as well as in web development too.
+
+5. A variable is a memory location which holds a value in it.We can reuse the variable multipe times.
+
+6. We can take the input in python with the help of input() function. It accepts only one argument at a time and always returns string.
+
+eg- x= input("enter ur name")
+
+7. The default data type of input function is string.
+
+8. Type casting is a process to convert one data type into other data type.
+   for eg. int to string OR int to float
+
+9. Yes we can take multiple input from a single input function using split method -- split().
+   eg. a,b,c= input("enter the numbers").split() after taking one value we will split it using spacebar
+
+10. Keywords are the predefined or reserved words made by programmer for particular usage in programming. 
+
+11. No we cant use keywords as a variable because their implementation is already defined by prgrammer. Due to this we cant manipulate that implementation. If we try to do so we will get error.
+
+12. Since python does not support curly braces or blocks that why it uses the concept of indentation wich means space at the beginning of code. It increases the readability and understability of program.
+Every statement in python should follow indentation.
+
+13. We can throw ouput in python using print() funtion. print() function takes anything as a arguement and converts it into string before printing.
+
+14. Operators are used to perform operation on the operands.
+
+15./ this is float division and // this is integer divison.
+   / this gives the value in decimals and if we dont want the value in decimals then we will use //
+
+16. print("iNeuron"*5)
+
+17.  Odd even program-
+      
+x=int(input("Enter a number"))
+if x%2==0:
+    print("Even")
+else:
+    print("odd")  
+
+18.Logical operators are the boolean operators like or , and ,not.
+
+19. 1 -true
+    2 -false
+    3 -false
+    4 -1
+
+20.Conditional statements are the statements which is based on the condition. It wont get executed or run until the condition is satified.
+
+21. if else and elif are the keyword which checks the conditon and based on the condition if it satifies it will excute the code written in that blocks.
+
+22. The code is here.
+ 
+age = int(input("Enter the age")) 
+if age>18:
+    print("You can vote")
+else:
+    print("you cant vote")   
+
+
+23.The code is here
+
+numbers = [12, 75, 150, 180, 145, 525, 50]
+sum=0
+for i in numbers:
+    if i%2==0:
+        sum=sum+i
+
+print("the sum of even is ",sum) 
+
+24.The code is 
+
+x= int(input("enter first num")) 
+y= int(input("enter second num"))         
+z= int(input("enter third num"))
+if x>=y and x>=z:
+    print(x," is graeter")
+elif y>=x and y>=z:
+    print(y,"is greater")
+else:
+    print(z,"is graeter")  
+
+
+25.   
